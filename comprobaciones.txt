@@ -1,0 +1,30 @@
+$ git log --oneline --graph --all
+* bb59303 Añade sombra al botón principal y cierra la issue #2
+*   e65e630 Resuelve el conflicto de cover.css
+|\  
+| * 2759a96 Cambia el color del botón principal a verde oscuro
+* | a6ba61c Cambia el color del botón principal a morado
+|/  
+*   57d3c81 Merge pull request #2 from xerachrrm/custom-text Closes #1
+|\  
+| * a2a7b3e Afina el eslogan de la portada
+| * 9fb8b9d Ajusta el texto del pie de página
+| * a8ec94b Personaliza la portada para la startup
+|/  
+* 81fa660 Corrige enlace en la portada de la documentación
+* 9c9572a Añade documentación con MkDocs e integración continua
+* 701d9f2 Añade la página de la startup y su hoja de estilos
+
+$ git remote -v
+espejo	git@github.com:xerachrrm/git-work-espejo.git (fetch)
+espejo	git@github.com:xerachrrm/git-work-espejo.git (push)
+origin	git@github.com:xerachrrm/git-work.git (fetch)
+origin	git@github.com:xerachrrm/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+Xerach Rodríguez Mesa <Xerachrr@gmail.com>
+Xerach Rodríguez <xerachrrm@gmail.com>
+xerachrrm <xerachrrm@gmail.com>
